@@ -1,0 +1,92 @@
+body{
+  margin: 0px;
+  background-color: rgb(236, 236, 236);
+}
+#menu{
+  height: 50px;
+  line-height: 50px;
+}
+#menu ul{
+  background-color:rgb(8, 8, 80);  
+  margin-top: 0px;
+}
+#menu ul li{ 
+  display: inline-block;
+  padding: 6px 45px;
+  text-align: left;
+  font-size: 100%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#menu ul li a{
+  color:white;
+}
+
+h1{
+  transition-property: all;
+  transition-duration: 7s;
+  transform: scaleY(1.5); 
+  animation: pisca .8s infinite;
+}
+
+@keyframes pisca {
+	0%, 50%, 100% {
+		background:rgb(236, 236, 236);
+		color: rgb(236, 236, 236);
+	}
+	51%, 99% {
+		background:  rgb(236, 236, 236);
+		color:rgb(8, 8, 80);
+  }
+}
+
+footer{
+  margin-top: 100px;
+  padding: 5px;
+  background-color: rgb(8, 8, 80);
+}
+footer p{
+  text-align: center;
+  line-height: 5px;
+  color: white; 
+}
+main h1,main h2{
+  margin-left: 200px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+}
+iframe{
+  margin-left: 400px;
+  margin-right: 300px;
+}
+p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: lighter;
+  text-align: justify;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#menu a{
+  text-decoration: none;
+}
+#menu a:hover{
+  color:black;
+}
+#menu a:active{
+  color: white;
+}
+main a{
+  text-decoration: none;
+}
+main a:link{
+  color:blue;
+}
+main a:visited{
+  color:blue;
+}
+main article p{
+  color: rgb(100, 100, 100);
+}
+img{
+  width: 1349px;
+  height: 450px;
+}
